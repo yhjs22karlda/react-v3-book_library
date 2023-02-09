@@ -1,6 +1,5 @@
-import { useState } from "react"
 import "./App.css"
-import books from "./assets/childrensbooks.jsx"
+import books from "./assets/childrensbooks.json"
 import {Link} from "react-router-dom"
 import Book from "./Book"
 

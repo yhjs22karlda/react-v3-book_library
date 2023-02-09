@@ -4,6 +4,7 @@
 }
 .app a {
     text-decoration: none;
+    color: white;
 }
 .app a:visited {
     color:white;

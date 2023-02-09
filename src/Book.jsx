@@ -6,7 +6,7 @@ export default function Book() {
     let book = useLocation().state.book
     console.log(book)
     const colorGrad = {
-        background: `linear-gradient(45deg,${book.color}, white)`
+        background: `linear-gradient(45deg,${book.color}, white 150%)`
     }
     return (
             <section className="book-container">
