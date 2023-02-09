@@ -10,8 +10,9 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <App />,
-        errorElement: <Error />
-    }, {
+        errorElement: <Error />,
+        // children: []
+    },{
         path: '/book/:id',
         element: <Book />
     }

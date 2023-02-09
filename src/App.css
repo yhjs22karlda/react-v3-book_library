@@ -1,0 +1,17 @@
+.app {
+    color: white;
+    line-height: 160%;
+}
+.app a {
+    text-decoration: none;
+}
+.app a:visited {
+    color:white;
+}
+.app ul {
+    list-style: none;
+    padding: 0;
+}
+.app li {
+    font-size: 1.2rem;
+}
